@@ -1,0 +1,22 @@
+:root {
+    --cream: #F7F0E6;
+    --cream2: #EDE3D2;
+    --cream3: #DDD0BC;
+    --cream4: #CFC0A8;
+    --dark: #1A2818;
+    --dark2: #223020;
+    --dark3: #2A3A28;
+    --ink: #111E10;
+    --matcha: #4A6741;
+    --matcha2: #6B8F5E;
+    --matcha3: #3A5430;
+    --matcha4: #8AAF7A;
+    --gold: #C8A96E;
+    --gold2: #DFC08A;
+    --gold3: #A88A50;
+    --red: #8B2E2E;
+    --red2: #A83232;
+    --red3: #7A2020;
+    --font-serif: var(--font-playfair), 'Playfair Display', serif;
+    --font-sans: var(--font-dmsans), 'DM Sans', sans-serif;
+}

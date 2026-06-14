@@ -1,0 +1,86 @@
+.process {
+    background: var(--cream2);
+    padding: clamp(56px, 8vw, 88px) clamp(24px, 6vw, 64px);
+    border-top: 1px solid var(--cream3);
+    border-bottom: 1px solid var(--cream3);
+}
+
+.proc-top {
+    margin-bottom: 52px;
+}
+
+.proc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.proc-step {
+    padding: 0 clamp(16px, 2.5vw, 28px);
+    border-left: 1px solid rgba(74, 103, 65, 0.15);
+}
+
+.proc-step:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+.proc-bignum {
+    font-family: var(--font-serif);
+    font-size: clamp(44px, 6vw, 64px);
+    color: rgba(74, 103, 65, 0.1);
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.proc-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.proc-title {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--dark);
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.proc-body {
+    font-size: 11px;
+    line-height: 1.85;
+    color: #7A6A52;
+}
+
+@media (max-width: 900px) {
+    .proc-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px 16px;
+    }
+
+    .proc-step {
+        border-left: 1px solid rgba(74, 103, 65, 0.15);
+        padding-left: clamp(14px, 3vw, 22px);
+    }
+
+    .proc-step:nth-child(odd) {
+        border-left: none;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .proc-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .proc-step {
+        border-left: none !important;
+        padding-left: 0 !important;
+    }
+}

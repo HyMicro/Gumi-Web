@@ -4,33 +4,27 @@ import "./globals.css";
 const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "700"],
-  style: ["normal", "italic"],
-  variable: "--font-playfair",
+  variable: "--font-playfair", // Ini penting!
   display: "swap",
 });
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500"],
-  variable: "--font-dmsans",
+  variable: "--font-dmsans", // Ini penting!
   display: "swap",
 });
 
 export const metadata = {
   title: "gumi — Custom Amigurumi & Yarn Works",
-  description: "Boneka rajut wisuda kustom handmade dari Malang. Setiap simpul adalah cerita yang kamu titipkan.",
-  keywords: ["amigurumi", "boneka rajut", "wisuda custom", "handmade malang", "gumi"],
-  openGraph: {
-    title: "gumi — Custom Amigurumi & Yarn Works",
-    description: "Boneka rajut wisuda kustom handmade dari Malang.",
-    type: "website",
-  },
+  description: "Setiap simpul adalah cerita yang kamu titipkan.",
 };
 
 export default function RootLayout({ children }) {
   return (
+    // TAMBAHKAN className INI:
     <html lang="id" className={`${playfair.variable} ${dmSans.variable}`}>
-      <body>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

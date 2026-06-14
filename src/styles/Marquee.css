@@ -1,0 +1,47 @@
+.marquee {
+    padding: 11px 0;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.marquee.matcha {
+    background: var(--matcha);
+    border-top: 1px solid var(--matcha3);
+    border-bottom: 1px solid var(--matcha3);
+}
+
+.marquee.dark {
+    background: var(--dark2);
+    border-top: 1px solid rgba(200, 169, 110, 0.06);
+    border-bottom: 1px solid rgba(200, 169, 110, 0.06);
+}
+
+.marquee.red {
+    background: var(--red);
+    border-top: 1px solid var(--red3);
+    border-bottom: 1px solid var(--red3);
+}
+
+.marquee-inner {
+    display: flex;
+    white-space: nowrap;
+    animation: marquee 24s linear infinite;
+}
+
+.marquee-item {
+    font-size: 9px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(247, 240, 230, 0.7);
+    padding: 0 20px;
+}
+
+.marquee.dark .marquee-item {
+    color: var(--matcha4);
+}
+
+.marquee-dot {
+    color: var(--gold);
+    font-size: 8px;
+    opacity: 0.7;
+}

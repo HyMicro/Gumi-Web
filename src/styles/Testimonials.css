@@ -1,0 +1,74 @@
+.testi {
+    background: var(--dark);
+    padding: clamp(56px, 8vw, 88px) clamp(24px, 6vw, 64px);
+}
+
+.testi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: rgba(200, 169, 110, 0.08);
+    margin-top: 40px;
+}
+
+.tcard {
+    background: var(--dark);
+    padding: clamp(20px, 3vw, 30px);
+    transition: background 0.25s;
+}
+
+.tcard:hover {
+    background: var(--dark2);
+}
+
+.tcard-stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 18px;
+}
+
+.star {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: var(--gold);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.tcard-text {
+    font-family: var(--font-serif);
+    font-size: clamp(13px, 1.5vw, 15px);
+    font-style: italic;
+    line-height: 1.75;
+    color: var(--cream2);
+    margin-bottom: 20px;
+}
+
+.tcard-div {
+    width: 24px;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.5;
+    margin-bottom: 14px;
+}
+
+.tcard-name {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--matcha4);
+}
+
+.tcard-loc {
+    font-size: 9px;
+    color: var(--matcha3);
+    margin-top: 3px;
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 900px) {
+    .testi-grid {
+        grid-template-columns: 1fr;
+        gap: 2px;
+    }
+}
