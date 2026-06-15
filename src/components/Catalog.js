@@ -12,7 +12,7 @@ const PRODUCTS = [
     price: "Rp 160.000",
     featured: true,
     dark: true,
-    img: "/images/GummiLogoFont.png",
+    img: "/images/WisudaSingle.jpg",
     imgHint: "boneka-single.jpg\n600 × 700 px",
   },
   {
@@ -24,7 +24,7 @@ const PRODUCTS = [
     price: "Rp 290.000",
     featured: false,
     dark: false,
-    img: null,
+    img: "/images/Couple.jpg",
     imgHint: "boneka-couple.jpg\n400 × 400 px",
   },
   {
@@ -36,7 +36,7 @@ const PRODUCTS = [
     price: "Rp 65.000",
     featured: false,
     dark: false,
-    img: null,
+    img: "/images/minikey.jpg",
     imgHint: "gk-mini.jpg\n400 × 400 px",
   },
   {
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "Rp 220.000",
     featured: false,
     dark: false,
-    img: null,
+    img: "/images/Rajut kenangan.jpg",
     imgHint: "paket-premium.jpg\n400 × 400 px",
   },
   {
@@ -60,7 +60,7 @@ const PRODUCTS = [
     price: "Rp 408.000",
     featured: false,
     dark: false,
-    img: null,
+    img: "/images/Tripple.jpg",
     imgHint: "bestie-triple.jpg\n400 × 400 px",
   },
   {
@@ -72,7 +72,7 @@ const PRODUCTS = [
     price: "Rp 80.000",
     featured: false,
     dark: false,
-    img: null,
+    img: "/images/Animal.jpg",
     imgHint: "hewan-mini.jpg\n400 × 400 px",
   },
 ];

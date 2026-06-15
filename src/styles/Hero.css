@@ -237,7 +237,7 @@
     .hero-img-placeholder,
     .hero-img-wrap {
         width: 200px;
-        height: 240px;
+        height: auto;
     }
 }
 
@@ -265,6 +265,6 @@
     .hero-img-placeholder,
     .hero-img-wrap {
         width: 170px;
-        height: 200px;
+        height: auto;
     }
 }

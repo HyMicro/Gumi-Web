@@ -26,7 +26,7 @@ const PROMOS = [
     origPrice: "Rp 320.000",
     newPrice: "Rp 256.000",
     save: "Hemat Rp 64.000",
-    img: null,
+    img: "/images/Couplewisuda.jpg",
     imgHint: "couple-promo.jpg\n800 × 500 px",
   },
   {
@@ -46,7 +46,7 @@ const PROMOS = [
     origPrice: "Rp 160.000",
     newPrice: "Rp 144.000",
     save: "Hemat Rp 16.000",
-    img: null,
+    img: "/images/WisudaSingle.jpg",
     imgHint: "single-promo.jpg\n400 × 500 px",
   },
   {
@@ -63,7 +63,7 @@ const PROMOS = [
     origPrice: "Rp 195.000",
     newPrice: "Rp 165.000",
     save: "Hemat Rp 30.000",
-    img: null,
+    img: "/images/keyrajut.jpg",
     imgHint: "gk-3pcs.jpg\n400 × 400 px",
   },
   {
@@ -83,7 +83,7 @@ const PROMOS = [
     origPrice: "Rp 220.000",
     newPrice: "Rp 187.000",
     save: "Hemat Rp 33.000",
-    img: null,
+    img: "/images/Rajut kenangan.jpg",
     imgHint: "premium-promo.jpg\n400 × 500 px",
   },
   {
@@ -100,7 +100,7 @@ const PROMOS = [
     origPrice: "Rp 480.000",
     newPrice: "Rp 408.000",
     save: "Hemat Rp 72.000",
-    img: null,
+    img: "/images/Tripple.jpg",
     imgHint: "bestie-promo.jpg\n400 × 400 px",
   },
   {
@@ -117,7 +117,7 @@ const PROMOS = [
     origPrice: "Rp 80.000",
     newPrice: null,
     save: null,
-    img: null,
+    img: "/images/Animal.jpg",
     imgHint: "hewan-sold.jpg\n400 × 400 px",
   },
 ];
